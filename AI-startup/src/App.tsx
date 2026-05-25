@@ -3,7 +3,7 @@ import Header from "./components/Header/header"
 import JobInputForm from "./components/JobInputForm/JobInputForm"
 import LoadingState from "./components/LoadingState/LoadingState";
 import QuestionDisplay from "./components/QuestionDisplay/QuestionDisplay";
-import { fetchInterviewQuestions } from "./services/geminiService";
+import { fetchInterviewQuestions } from "./services/groqService";
 
 const App = () => {
   const [loading, setLoading] = useState(false);

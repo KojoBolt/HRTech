@@ -1,5 +1,5 @@
 const API_KEY = import.meta.env.VITE_GROQ_API_KEY;
-const API_URL = "https://api.groq.com/openai/v1/chat/completions";
+const API_URL = "/groq-api/openai/v1/chat/completions";
 
 export async function fetchInterviewQuestions(jobTitle: string): Promise<string[]> {
   // Guard against empty input
